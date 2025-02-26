@@ -1,0 +1,47 @@
+.popup{
+    background-color: rgba(41, 40, 40, 0.9);
+    width: 40%;
+    height: 160px;
+    overflow: hidden;
+    padding: 5px 10px;
+    position: fixed;
+    top:60px;
+    left: 29%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.8s, opacity 0.8s;
+    text-align: center;
+}
+.popup button{
+    display: block;
+    margin:  0 0 0px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup p{
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 5px 0;
+    line-height: 25px;
+    color: #fff;
+    font-weight: bolder;
+}
+@media (max-width: 600px) {
+.popup{
+    width: 90%;
+    position: fixed;
+    top:60px;
+    left: 2%;
+
+}
+
+.popup p{
+    font-size: 0.7rem;
+}
+}
